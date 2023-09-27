@@ -1,8 +1,6 @@
-s = "rat"
-t = "car"
-print(sorted(s))
-print(sorted(t))
-if(sorted(s)==sorted(t)):
-    print('True')
-else:
-    print('false')
+class Solution(object):
+    def isAnagram(self, s, t):
+        if(sorted(s)==sorted(t)):
+            return True
+        else:
+            return False
